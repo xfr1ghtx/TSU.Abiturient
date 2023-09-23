@@ -1,0 +1,22 @@
+/* 
+  Errors.strings
+  TSUInTime
+*/
+
+"failedToDecodeDataError" = "Не удалось прочитать данные";
+"requestFailedError" = "Не удалось выполнить запрос";
+"calendarAccessWasDeniedError" = "Не удалось получить доступ к Календарю";
+"unexpectedError" = "Что-то пошло не так";
+"nothingToExportToCalendarError" = "В выбранном промежутке не оказалось ни одной пары";
+"unauthorizedError" = "Необходима повторная авторизация";
+
+"noInternetError.title" = "Нет интернета";
+"noInternetError.subtitle" = "Проверьте подключение\nи попробуйте обновить";
+"serverError.title" = "Что-то пошло не так";
+"serverError.subtitle" = "Уже разбираемся.\nПопробуйте позже";
+
+"storageError.failedToSaveTimetable" = "Не удалось сохранить расписание";
+"storageError.failedToGetTimetable" = "Не удалось получить расписание";
+"storageError.failedToUpdateTimetables" = "Не удалось обновить расписания";
+"storageError.failedToDeleteTimetable" = "Не удалось удалить расписание";
+"storageError.failedToDeleteAllTimetables" = "Не удалось удалить все расписания";

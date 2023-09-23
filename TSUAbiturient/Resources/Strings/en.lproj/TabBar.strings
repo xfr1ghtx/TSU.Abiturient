@@ -1,0 +1,8 @@
+/*
+  TabBar.strings
+  TSUInTime
+*/
+
+"tabs.title.main" = "Main";
+"tabs.title.guide" = "Guide Book";
+"tabs.title.enrollment" = "Enrollment";

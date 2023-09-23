@@ -1,0 +1,14 @@
+/* 
+  Enrollment.strings
+  TSUAbiturient
+ 
+*/
+"noAccount.title" = "Oops, you need to log in to continue!";
+"noAccount.subtitle" = "Use your TSU.Account to get detailed information about admission and track your position in the ranking";
+"noAccount.loginButton" = "Log in with TSU.Account";
+
+"logout" = "Logout";
+"myPrograms" = "My education programs";
+"program.budget" = "Budget";
+"program.contract" = "Contract";
+"program.target" = "Target";

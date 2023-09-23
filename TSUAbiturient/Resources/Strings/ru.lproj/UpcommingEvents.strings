@@ -1,0 +1,12 @@
+/* 
+  UpcommingEvents.strings
+  TSUInTime
+*/
+
+"component.title" = "Ближайшие события";
+"component.allButton.title" = "Все";
+
+"eventDetails.addressLabel.title" = "Адрес";
+"eventDetails.descriptionLabel.title" = "О мероприятии";
+
+"eventsScreen.title" = "События";

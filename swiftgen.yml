@@ -1,0 +1,30 @@
+input_dir: TSUAbiturient/Resources/
+output_dir: TSUAbiturient/Supporting Files/SwiftGen
+
+strings:
+  inputs:
+    - Strings/Base.lproj
+  outputs:
+    - templateName: structured-swift5
+      output: Strings+Generated.swift
+      params:
+        enumName: Localizable
+
+xcassets:
+  inputs:
+    - Assets/Images.xcassets
+    - Assets/Colors.xcassets
+  outputs:
+    - templateName: swift5
+      output: Assets+Generated.swift
+      params:
+        enumName: Assets
+
+fonts:
+  inputs:
+    - Fonts
+  outputs:
+    - templateName: swift5
+      output: Fonts+Generated.swift
+      params:
+        enumName: Fonts

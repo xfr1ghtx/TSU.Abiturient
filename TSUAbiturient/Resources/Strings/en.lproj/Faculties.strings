@@ -1,0 +1,18 @@
+/* 
+  Faculties.strings
+  TSUAbiturient
+*/
+
+"screenTitle" = "Faculties and departments";
+
+"locationsSectionTitle" = "Locations";
+
+"locationAcademicTitle" = "Academic building";
+"locationDormitoryTitle" = "Dormitory";
+"locationOtherTitle" = "Other";
+
+"contactsSectionTitle" = "Contacts";
+
+"socialNetworksSectionTitle" = "Social networks";
+"socialNetworksAbiturients" = "For applicants";
+"socialNetworksOther" = "Other";

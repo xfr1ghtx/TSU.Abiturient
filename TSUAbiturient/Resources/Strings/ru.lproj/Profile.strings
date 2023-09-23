@@ -1,0 +1,8 @@
+/*
+  Profile.strings
+  TSUInTime
+*/
+
+"hello" = "Привет, %@ 👋";
+"tsuLoginButtonTitle" = "Войти через ТГУ.Аккаунт";
+"hasProfileQuestion" = "Есть профиль?";

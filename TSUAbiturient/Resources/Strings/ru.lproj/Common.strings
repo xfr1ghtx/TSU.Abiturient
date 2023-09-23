@@ -1,0 +1,15 @@
+/* 
+  Common.strings
+  TSUInTime
+*/
+
+"error" = "Ошибка";
+"cancel" = "Отмена";
+"delete" = "Удалить";
+"refresh" = "Обновить";
+"done" = "Готово";
+"open" = "Открыть";
+"close" = "Закрыть";
+"reset" = "Сбросить";
+
+"settingsOpen" = "Перейти в Настройки";

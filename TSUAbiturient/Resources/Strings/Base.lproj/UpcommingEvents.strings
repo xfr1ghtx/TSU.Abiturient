@@ -1,0 +1,12 @@
+/* 
+  UpcommingEvents.strings
+  TSUInTime
+*/
+
+"component.title" = "Upcomming events";
+"component.allButton.title" = "All";
+
+"eventDetails.addressLabel.title" = "Address";
+"eventDetails.descriptionLabel.title" = "About event";
+
+"eventsScreen.title" = "Events";

@@ -1,0 +1,10 @@
+/* 
+  GuideBook.strings
+  TSUAbiturient
+*/
+
+"title" = "Guide Book";
+"facultyCard.subtitle" = "And choose yours";
+"facultyCard.title" = "Get to know the faculties";
+"calculatorCard.title" = "Calculator";
+"map.title" = "Campus map";

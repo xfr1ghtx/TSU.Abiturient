@@ -1,0 +1,15 @@
+/*
+  Common.strings
+  TSUInTime
+*/
+
+"error" = "Error";
+"cancel" = "Cancel";
+"delete" = "Delete";
+"refresh" = "Refresh";
+"done" = "Done";
+"open" = "Open";
+"close" = "Close";
+"reset" = "Reset";
+
+"settingsOpen" = "Go to Settings";

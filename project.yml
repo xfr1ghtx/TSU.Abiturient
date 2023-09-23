@@ -1,0 +1,136 @@
+---
+name: TSUAbiturient
+
+options:
+  xcodeVersion: 12.5
+  deploymentTarget:
+    iOS: '15.0'
+  defaultConfig: Develop
+  bundleIdPrefix: ru
+  groupSortPosition: top
+  developmentLanguage: "ru"
+  enableBaseInternationalization: true
+  usesTabs: false
+  indentWidth: 2
+  tabWidth: 2
+  groupOrdering: 
+    - order: [Sources, Resources, Tests, Supporting Files]
+    - pattern: 'Sources'
+      order: [Application, Common, Protocols, Extensions, Model, Modules, Views, Services, Utils]
+
+configs:
+  Enterprise: release
+  Live: release
+  Staging: release
+  Develop: debug
+  Debug: debug
+
+settings:
+  base:
+    SWIFT_VERSION: 5.5
+    DEBUG_INFORMATION_FORMAT: dwarf-with-dsym
+    MTL_ENABLE_DEBUG_INFO: 'YES'
+    ENABLE_BITCODE: 'NO'
+    SWIFT_COMPILATION_MODE: wholemodule
+    SUPPORTS_MACCATALYST: 'NO'
+  configs:
+    Debug:
+      SWIFT_COMPILATION_MODE: "incremental"
+    Develop:
+      SWIFT_COMPILATION_MODE: "incremental"
+    Staging:
+      SWIFT_COMPILATION_MODE: "wholemodule"
+    Live:
+      SWIFT_COMPILATION_MODE: "wholemodule"
+    Enterprise:
+      SWIFT_COMPILATION_MODE: "wholemodule"
+
+packages:
+  Alamofire:
+    url: https://github.com/Alamofire/Alamofire.git
+    version: 5.6.4
+  SnapKit:
+    url: https://github.com/SnapKit/SnapKit.git
+    version: 5.6.0
+  PromiseKit:
+    url: https://github.com/mxcl/PromiseKit.git
+    version: 6.22.1
+  Lottie:
+    url: https://github.com/airbnb/lottie-ios.git
+    version: 4.1.3
+  NotificationBannerSwift:
+    url: https://github.com/Daltron/NotificationBanner.git
+    version: 3.2.0
+  Firebase:
+    url: https://github.com/firebase/firebase-ios-sdk.git
+    version: 10.7.0
+  Kingfisher:
+    url: https://github.com/onevcat/Kingfisher.git
+    version: 7.6.2
+  Amplitude-Swift:
+    url: https://github.com/amplitude/Amplitude-Swift.git
+    version: 0.4.0
+
+targets:
+  TSUAbiturient:
+    type: application
+    platform: iOS
+    dependencies:
+    - package: Alamofire
+    - package: SnapKit
+    - package: PromiseKit
+    - package: Lottie
+    - package: NotificationBannerSwift
+    - package: Kingfisher
+    - package: Amplitude-Swift
+    - package: Firebase
+      product: FirebaseAnalytics
+    - package: Firebase
+      product: FirebaseCrashlytics
+    - package: Firebase
+      product: FirebaseMessaging
+    - package: Firebase
+      product: FirebaseFirestore
+    - package: Firebase
+      product: FirebaseRemoteConfig
+    sources:
+    - TSUAbiturient
+    settings:
+      base:
+        MARKETING_VERSION: 3.0.0
+        CURRENT_PROJECT_VERSION: 23
+        TARGETED_DEVICE_FAMILY: 1
+        VERSIONING_SYSTEM: apple-generic
+        PRODUCT_BUNDLE_IDENTIFIER: tsu.IwantToTSU
+        DEVELOPMENT_TEAM: UL6FX35328
+        CODE_SIGN_STYLE: Automatic
+        ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: true
+    preBuildScripts:
+    - script: "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n"
+      name: SwiftLint
+    - script: "if which swiftgen >/dev/null; then\n  swiftgen\nelse\n   echo \"warning: SwiftGen not installed, download from https://github.com/SwiftGen/SwiftGen\"\nfi\n"
+      name: SwiftGen
+    postBuildScripts:
+    - script: |
+        TAGS="TODO:|FIXME:"
+        echo "searching ${SRCROOT} for ${TAGS}"
+        find "${SRCROOT}" \( -name "*.swift" \) \( -not -path "*/Pods/*" \) -print0 | xargs -0 egrep --with-filename --line-number --only-matching "($TAGS).*\$" | perl -p -e "s/($TAGS)/ warning: \$1/"
+      name: Highlight TODOs and FIXMEs
+
+schemes:
+  TSUAbiturient:
+    build:
+      targets:
+        TSUAbiturient: all
+    run:
+      config: Debug
+      environmentVariables:
+      - variable: OS_ACTIVITY_MODE
+      - value: disable
+      - isEnabled: false
+    profile:
+      config: Develop
+    analyze:
+      config: Develop
+    archive:
+      config: Enterprise

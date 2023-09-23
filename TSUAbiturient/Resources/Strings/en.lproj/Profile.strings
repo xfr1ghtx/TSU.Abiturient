@@ -1,0 +1,8 @@
+/*
+  Profile.strings
+  TSUInTime
+*/
+
+"hello" = "Hello, %@ 👋";
+"tsuLoginButtonTitle" = "Login via TSU.Account";
+"hasProfileQuestion" = "Has a profile?";

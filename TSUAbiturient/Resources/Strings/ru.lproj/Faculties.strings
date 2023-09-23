@@ -1,0 +1,18 @@
+/* 
+  Faculties.strings
+  TSUAbiturient
+*/
+
+"screenTitle" = "Факультеты и подразделения";
+
+"locationsSectionTitle" = "Локации";
+
+"locationAcademicTitle" = "Учебный корпус";
+"locationDormitoryTitle" = "Общежитие";
+"locationOtherTitle" = "Другое";
+
+"contactsSectionTitle" = "Контакты";
+
+"socialNetworksSectionTitle" = "Социальные сети";
+"socialNetworksAbiturients" = "Для абитуриентов";
+"socialNetworksOther" = "Прочие";

@@ -1,0 +1,22 @@
+/* 
+  Calculator.strings
+  TSUAbiturient
+*/
+
+"title" = "USE Calculator";
+"tableTitle" = "Choose exams and direction";
+"periodYears" = "years";
+"fullTimeForm" = "Full-time";
+"distantForm" = "Distant";
+"partTimeForm" = "Part-time";
+"chooseDirections" = "Directions selection";
+"indicateResults" = "Indicate your results for the USE";
+"directionDetailsTitle" = "About direction";
+"freePlaces" = "Budget places";
+"paidPlaces" = "Paid places";
+"entranceTests" = "Entrance tests";
+"requiredSubjects" = "Required";
+"choiceSubjects" = "Optionally";
+"passingScore" = "The passing score of 2022";
+"costOfStudy" = "Tuition fee per year";
+"currencyRuble" = "%@ руб.";

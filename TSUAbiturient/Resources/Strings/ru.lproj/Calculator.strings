@@ -1,0 +1,22 @@
+/* 
+  Calculator.strings
+  TSUAbiturient
+*/
+
+"title" = "Калькулятор ЕГЭ";
+"tableTitle" = "Выбрать экзамены и направление";
+"periodYears" = "года";
+"fullTimeForm" = "Очная";
+"distantForm" = "Заочная";
+"partTimeForm" = "Очно-заочная";
+"chooseDirections" = "Подбор направлений";
+"indicateResults" = "Укажите ваши результаты за ЕГЭ";
+"directionDetailsTitle" = "О программе";
+"freePlaces" = "Бюджетных мест";
+"paidPlaces" = "Платных мест";
+"entranceTests" = "Вступительные испытания";
+"requiredSubjects" = "Обязательные";
+"choiceSubjects" = "По выбору";
+"passingScore" = "Проходной балл 2022 года";
+"costOfStudy" = "Стоимость обучения за год";
+"currencyRuble" = "%@ руб.";

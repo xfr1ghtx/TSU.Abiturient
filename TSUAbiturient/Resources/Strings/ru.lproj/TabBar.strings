@@ -1,0 +1,8 @@
+/*
+  TabBar.strings
+  TSUInTime
+*/
+
+"tabs.title.main" = "Главное";
+"tabs.title.guide" = "Путеводитель";
+"tabs.title.enrollment" = "Поступление";

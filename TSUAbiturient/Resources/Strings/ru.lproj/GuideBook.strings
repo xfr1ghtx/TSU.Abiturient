@@ -1,0 +1,10 @@
+/* 
+  GuideBook.strings
+  TSUAbiturient
+*/
+
+"title" = "Путеводитель";
+"facultyCard.subtitle" = "И выбери свой";
+"facultyCard.title" = "Познакомься с факультетами";
+"calculatorCard.title" = "Калькулятор ЕГЭ";
+"map.title" = "Карта кампуса";

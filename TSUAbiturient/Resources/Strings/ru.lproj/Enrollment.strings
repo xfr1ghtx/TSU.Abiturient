@@ -1,0 +1,14 @@
+/* 
+  Enrollment.strings
+  TSUAbiturient
+  
+*/
+"noAccount.title" = "Ой, для продолжения нужно войти!";
+"noAccount.subtitle" = "Используй свой ТГУ.Аккаунт, чтобы получить подробную информацию о поступлении и отслеживать позицию в рейтинге";
+"noAccount.loginButton" = "Войти через ТГУ.Аккаунт";
+
+"logout" = "Выйти";
+"myPrograms" = "Мои направления";
+"program.budget" = "Бюджет";
+"program.contract" = "Платно";
+"program.target" = "Целевое";

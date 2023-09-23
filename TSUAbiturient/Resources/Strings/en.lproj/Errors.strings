@@ -1,0 +1,22 @@
+/* 
+  Errors.strings
+  TSUInTime
+*/
+
+"failedToDecodeDataError" = "Failed to read data";
+"requestFailedError" = "Request failed";
+"calendarAccessWasDeniedError" = "Failed to access the Calendar";
+"unexpectedError" = "Something went wrong";
+"nothingToExportToCalendarError" = "No lessons in the selected range";
+"unauthorizedError" = "Please sign in";
+
+"noInternetError.title" = "No Internet";
+"noInternetError.subtitle" = "Please check your connection \nand try to reload this page";
+"serverError.title" = "Something went wrong";
+"serverError.subtitle" = "We are trying to solve the problem already. \nPlease try again later";
+
+"storageError.failedToSaveTimetable" = "Failed to save timetable";
+"storageError.failedToGetTimetable" = "Failed to get timetables";
+"storageError.failedToUpdateTimetables" = "Failed to update timetables";
+"storageError.failedToDeleteTimetable" = "Failed to delete timetable";
+"storageError.failedToDeleteAllTimetables" = "Failed to delete all timetables";
